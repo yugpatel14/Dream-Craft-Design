@@ -1,0 +1,24 @@
+import React from 'react'
+import Hero from '../Components/Hero/Hero'
+import Popular from '../Components/Popular/Popular'
+import Offers from '../Components/Offers/Offers'
+import NewCollections from '../Components/NewCollections/NewCollections'
+import NewsLetter from '../Components/NewsLetter/NewsLetter'
+import CatagoryProducts from '../Components/CatagoryProducts/CatagoryProducts'
+
+
+
+const Shop = () => {
+  return (
+      <div>
+      <Hero />
+      <Popular />
+      {/* <CatagoryProducts/> */}
+      <Offers />
+      <NewCollections />
+      <NewsLetter/>
+    </div>
+  )
+}
+
+export default Shop
